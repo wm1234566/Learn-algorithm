@@ -66,6 +66,8 @@ function isClose(value:string):boolean
 let s:string=  "{}[]()"          ///"()[]{}"      //"()"
 
 
+// 时间复杂度是 O(n)
+// 空间复杂度是 O(n)
 
 
 console.log("结果",isClose(s));
